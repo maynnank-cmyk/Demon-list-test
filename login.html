@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Войти</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .container {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2196f3;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  button {
+    padding: 12px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: #1976d2;
+  }
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #f44336;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Войти</h1>
+  <form action="#" method="POST">
+    <input type="email" placeholder="Email" required />
+    <input type="password" placeholder="Пароль" required />
+    <button type="submit">Войти</button>
+  </form>
+  <a href="index.html">Вернуться назад</a>
+</div>
+
+</body>
+</html>
